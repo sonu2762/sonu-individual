@@ -9,7 +9,7 @@ export async function GET(request: Request) {
     //     'Content-Type': 'application/json',
     //     'API-Key': process.env.DATA_API_KEY,
     // },
-    // })
+    // })gleg
     // const product = await res.json()
     const apiServer = process.env.MAILCHIMP_API_SERVER;
 
@@ -44,3 +44,5 @@ export async function POST(req: Request, resp: NextApiResponse) {
     const received = await response.json();
     return NextResponse.json(received);
   }
+  // api/subscribe.js
+

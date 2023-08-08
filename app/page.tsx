@@ -2,6 +2,8 @@
 import Image from 'next/image'
 import { useState } from "react";
 
+
+
 export default function Home() {
   const [success, setSuccess] = useState(false);
   const [email, setEmail] = useState('');
@@ -16,7 +18,7 @@ export default function Home() {
       setSuccess(true);
     }
   }
-
+  
   return (
     <main>
       <div className="hero min-h-screen">

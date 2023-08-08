@@ -1,3 +1,4 @@
+import GoogleAnalytics from "./GoogleAnalytics";
 export default function PageLayout({ children, bgColor }: {
   children: React.ReactNode;
   bgColor: string;
@@ -11,6 +12,7 @@ export default function PageLayout({ children, bgColor }: {
                 {children}
             </div>
         </body>
+        <GoogleAnalytics/>
       </html>
     )
   }

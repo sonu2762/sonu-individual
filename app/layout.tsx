@@ -3,6 +3,7 @@
 import './globals.css'
 import Navbar from './components/Navbar'
 import { usePathname } from 'next/navigation'
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 
 export default function RootLayout({
@@ -43,6 +44,7 @@ export default function RootLayout({
         
         {/* <Footer/> */}
       </body>
+      <GoogleAnalytics/>
     </html>
   )
 }
